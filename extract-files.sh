@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=flash-common
+DEVICE=mh21m-common
 VENDOR=lge
 
 # Load extract_utils and do some sanity checks

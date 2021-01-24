@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_FLASH_PATH := device/lge/flash-common
+COMMON_FLASH_PATH := device/lge/mh21m-common
 
 # inherit from common v50
 -include device/lge/sm8150-common/BoardConfigCommon.mk

@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=flash-common
+DEVICE=mh21m-common
 VENDOR=lge
 
 INITIAL_COPYRIGHT_YEAR=2020

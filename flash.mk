@@ -17,9 +17,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/flash-common/flash-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/mh21m-common/mh21m-common-vendor.mk)
 
-COMMON_FLASH_PATH := device/lge/flash-common
+COMMON_FLASH_PATH := device/lge/mh21m-common
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
