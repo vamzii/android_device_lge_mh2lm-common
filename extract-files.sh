@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=mh21m-common
+DEVICE=mh2lm-common
 VENDOR=lge
 
 # Load extract_utils and do some sanity checks

@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=mh21m-common
+DEVICE=mh2lm-common
 VENDOR=lge
 
 INITIAL_COPYRIGHT_YEAR=2020
