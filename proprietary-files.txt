@@ -64,7 +64,6 @@ vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libstabilitydomain_skel.so
 vendor/lib/rfsa/adsp/libsysmondomain_skel.so
-vendor/lib/rfsa/adsp/libsysmonquery_skel.so
 vendor/lib/rfsa/adsp/libsysmon_skel.so
 vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
 vendor/lib/rfsa/adsp/libVC1Dec.so
@@ -101,7 +100,26 @@ vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1
 vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1
 
 # Audio amplifier firmware
-vendor/firmware/Tfa9872.cnt
+vendor/firmware/cs35l41-revB0-dsp1-l-cal.bin
+vendor/firmware/cs35l41-revB0-dsp1-l-cal.wmfw
+vendor/firmware/cs35l41-revB0-dsp1-l-prot.bin
+vendor/firmware/cs35l41-revB0-dsp1-l-prot.wmfw
+vendor/firmware/cs35l41-revB0-dsp1-r-cal.bin
+vendor/firmware/cs35l41-revB0-dsp1-r-cal.wmfw
+vendor/firmware/cs35l41-revB0-dsp1-r-prot.bin
+vendor/firmware/cs35l41-revB0-dsp1-r-prot.wmfw
+vendor/firmware/cs35l41-revB2-dsp1-l-cal.bin
+vendor/firmware/cs35l41-revB2-dsp1-l-cal.wmfw
+vendor/firmware/cs35l41-revB2-dsp1-l-prot.bin
+vendor/firmware/cs35l41-revB2-dsp1-l-prot.wmfw
+vendor/firmware/cs35l41-revB2-dsp1-r-cal.bin
+vendor/firmware/cs35l41-revB2-dsp1-r-cal.wmfw
+vendor/firmware/cs35l41-revB2-dsp1-r-prot.bin
+vendor/firmware/cs35l41-revB2-dsp1-r-prot.wmfw
+vendor/firmware/rcv_bypass_off.txt
+vendor/firmware/rcv_bypass_on.txt
+vendor/firmware/spk_bypass_off.txt
+vendor/firmware/spk_bypass_on.txt
 
 # Bluetooth firmware
 vendor/firmware/crbtfw21.tlv
@@ -165,15 +183,8 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 # Fingerprint
-vendor/etc/init/hw/init.lge.fingerprints.rc
+vendor/etc/init/init.lge.fingerprints.rc
 vendor/lib64/hw/fingerprint.msmnile.so
-vendor/lib64/libgf_algo.so
-vendor/lib64/libgf_hal.so
-vendor/lib/hw/fingerprint.msmnile.so
-vendor/lib/libgf_algo.so
-vendor/lib/libgf_hal.so
-vendor/usr/idc/goodix_fp_key.idc
-vendor/usr/keylayout/goodix_fp_key.kl
 
 # Graphics - firmware
 vendor/firmware/a225_pfp.fw
@@ -223,33 +234,24 @@ vendor/firmware/ipa_uc.mdt
 # NFC
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
-vendor/etc/libnfc-nxp-hk.conf
 vendor/etc/libnfc-nxp-KR.conf
 vendor/etc/libnfc-nxp-lg.conf
-vendor/etc/libnfc-nxp-SG.conf
 vendor/etc/libnfc-nxp-US.conf
 
 # NFC - Firmware
 vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so
-vendor/firmware/libpn553_fw_1D.so:vendor/lib/libpn553_fw_1D.so
 vendor/firmware/libpn553_fw_64.so:vendor/lib64/libpn553_fw_64.so
-vendor/firmware/libpn553_fw_1D_64.so:vendor/lib/libpn553_fw_1D_64.so
 
 # Sensor - configs
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/registry/config/ak991x_dri_0.json
-vendor/etc/sensors/registry/config/apds9999.json
+vendor/etc/sensors/registry/config/apds9169.json
 vendor/etc/sensors/registry/config/icm4x6xx_0.json
 vendor/etc/sensors/registry/config/sm8150_ak991x_0.json
-vendor/etc/sensors/registry/config/sm8150_ak991x_0_rev_01.json
-vendor/etc/sensors/registry/config/sm8150_ak991x_0_rev_02.json
-vendor/etc/sensors/registry/config/sm8150_apds9999.json
+vendor/etc/sensors/registry/config/sm8150_apds9169.json
 vendor/etc/sensors/registry/config/sm8150_icm4x6xx_0.json
-vendor/etc/sensors/registry/config/sm8150_icm4x6xx_0_rev_01.json
-vendor/etc/sensors/registry/config/sm8150_icm4x6xx_0_rev_02.json
 vendor/etc/sensors/registry/config/sm8150_power_0.json
 vendor/etc/sensors/registry/config/sm8150_spl06_0.json
-vendor/etc/sensors/registry/config/sm8150_tmd3727.json
 vendor/etc/sensors/registry/config/sns_amd.json
 vendor/etc/sensors/registry/config/sns_amd_sw_disabled.json
 vendor/etc/sensors/registry/config/sns_amd_sw_enabled.json
@@ -282,7 +284,6 @@ vendor/etc/sensors/registry/config/sns_tilt_to_wake.json
 vendor/etc/sensors/registry/config/sns_window_orientation.json
 vendor/etc/sensors/registry/config/sns_wrist_pedo.json
 vendor/etc/sensors/registry/config/spl06_0.json
-vendor/etc/sensors/registry/config/tmd3727.json
 vendor/etc/sensors/registry/registry/sensors_registry
 vendor/etc/sensors/registry/registry/sensors_settings
 vendor/etc/sensors/sns_reg_config
@@ -290,14 +291,17 @@ vendor/etc/sensors/sns_reg_config
 # Wifi - Firmware
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
+vendor/etc/wifi/CN/bdwlan.bin
+vendor/etc/wifi/CN/bdwlan_ch0.bin
+vendor/etc/wifi/CN/bdwlan_ch1.bin
 vendor/etc/wifi/fstman.ini
 vendor/etc/wifi/GLOBAL/bdwlan.bin
 vendor/etc/wifi/GLOBAL/bdwlan_ch0.bin
 vendor/etc/wifi/GLOBAL/bdwlan_ch1.bin
 vendor/etc/wifi/icudt53l.dat
-vendor/etc/wifi/NA_SPR/bdwlan.bin
-vendor/etc/wifi/NA_SPR/bdwlan_ch0.bin
-vendor/etc/wifi/NA_SPR/bdwlan_ch1.bin
-vendor/etc/wifi/NA_VZW/bdwlan.bin
-vendor/etc/wifi/NA_VZW/bdwlan_ch0.bin
-vendor/etc/wifi/NA_VZW/bdwlan_ch1.bin
+vendor/etc/wifi/KR_ALL/bdwlan.bin
+vendor/etc/wifi/KR_ALL/bdwlan_ch0.bin
+vendor/etc/wifi/KR_ALL/bdwlan_ch1.bin
+vendor/etc/wifi/NA_ALL/bdwlan.bin
+vendor/etc/wifi/NA_ALL/bdwlan_ch0.bin
+vendor/etc/wifi/NA_ALL/bdwlan_ch1.bin
