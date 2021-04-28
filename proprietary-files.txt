@@ -190,6 +190,7 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 vendor/etc/init/init.lge.fingerprints.rc
 vendor/lib64/hw/fingerprint.msmnile.so
 vendor/lib64/libRbsFlow.so
+vendor/lib64/libets_teeclient_v2.so
 
 # Graphics - firmware
 vendor/firmware/a225_pfp.fw
