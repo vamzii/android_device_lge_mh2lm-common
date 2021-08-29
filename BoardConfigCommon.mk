@@ -32,5 +32,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 107715436544
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
+# SELinux
+BOARD_SEPOLICY_DIRS += $(COMMON_mh2lm_PATH)/sepolicy/vendor
+
 # inherit from the proprietary version
 -include vendor/lge/mh2lm/BoardConfigVendor.mk
