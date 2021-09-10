@@ -23,8 +23,8 @@ COMMON_mh2lm_PATH := device/lge/mh2lm-common
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(COMMON_mh2lm_PATH)/overlay \
-    $(COMMON_mh2lm_PATH)/overlay-lineage
+    $(COMMON_mh2lm_PATH)/overlay
+#    $(COMMON_mh2lm_PATH)/overlay-lineage
 
 # Properties
 TARGET_SYSTEM_PROP += $(COMMON_mh2lm_PATH)/system.prop
